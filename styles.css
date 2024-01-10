@@ -1,54 +1,37 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: #001F3F;
     color: #fff;
     padding: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#welcome-section {
-    background-color: #f4f4f4;
-    padding: 2em;
-}
-
-#welcome-section .welcome-text {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#skills-section {
-    padding: 2em;
-}
-
-.skill {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    margin: 5px;
+nav button {
+    background-color: #FFD43B; /* PANTONE 13-1023 */
+    color: #001F3F; /* Royal Blue */
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-.skill:hover {
-    background-color: #555;
+nav button:hover {
+    background-color: #001F3F;
+    color: #fff;
 }
+
+/* Add styling for other sections as needed */

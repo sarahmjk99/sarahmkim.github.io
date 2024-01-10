@@ -4,33 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Tech Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <script defer src="script.js"></script>
+    <title>Sarah Minji Kim - Resume</title>
 </head>
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="#welcome-section">Home</a></li>
-                <li><a href="#skills-section">Skills</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <h1>Sarah Minji Kim</h1>
+            <nav>
+                <button onclick="scrollToSection('summary')">Summary</button>
+                <button onclick="scrollToSection('skills')">Skills</button>
+                <button onclick="scrollToSection('education')">Education</button>
+                <button onclick="scrollToSection('experience')">Experience</button>
+                <button onclick="scrollToSection('projects')">Projects</button>
+                <button onclick="scrollToSection('contact')">Contact</button>
+            </nav>
+        </div>
     </header>
 
-    <section id="welcome-section">
-        <div class="welcome-text">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Explore my skills and projects.</p>
-        </div>
+    <section id="summary">
+        <!-- Summary content goes here -->
     </section>
 
-    <section id="skills-section">
-        <h2>My Skills</h2>
-        <div class="skill" onmouseover="animateSkill(this)" onmouseout="resetSkill(this)">HTML</div>
-        <div class="skill" onmouseover="animateSkill(this)" onmouseout="resetSkill(this)">CSS</div>
-        <div class="skill" onmouseover="animateSkill(this)" onmouseout="resetSkill(this)">JavaScript</div>
+    <section id="skills">
+        <!-- Skills content goes here -->
     </section>
 
-    <script src="script.js"></script>
+    <section id="education">
+        <!-- Education content goes here -->
+    </section>
+
+    <section id="experience">
+        <!-- Experience content goes here -->
+    </section>
+
+    <section id="projects">
+        <!-- Projects content goes here -->
+    </section>
+
+    <section id="contact">
+        <!-- Contact content goes here -->
+    </section>
+
 </body>
 </html>
