@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#welcome-section {
+    background-color: #f4f4f4;
+    padding: 2em;
+}
+
+#welcome-section .welcome-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#skills-section {
+    padding: 2em;
+}
+
+.skill {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.skill:hover {
+    background-color: #555;
+}
