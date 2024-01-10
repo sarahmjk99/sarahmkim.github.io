@@ -2,63 +2,91 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color */
 }
 
-.home-container {
+.header-container {
     display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2em;
-}
-
-.profile-section img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.navigation-section {
-    flex-grow: 1;
-    padding-left: 2em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001F3F; /* Soft Royal Blue */
+    color: #FFD43B; /* Peachy Orange */
+    padding: 1em;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    display: flex;
 }
 
 .nav-button {
     text-decoration: none;
-    color: #001F3F;
-    font-weight: bold;
-    display: block;
-    margin: 10px 0;
+    color: #FFD43B;
+    margin: 0 20px;
     transition: color 0.3s;
 }
 
 .nav-button:hover {
-    color: #FFD43B; /* Change to Mellow Yellow on hover */
+    color: #FF9B42; /* Lighter Peachy Orange on hover */
+}
+
+.download-cv-button {
+    background-color: #FFD43B;
+    color: #001F3F;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.download-cv-button:hover {
+    background-color: #FF9B42; /* Lighter Peachy Orange on hover */
+    color: #001F3F;
+}
+
+.resume-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
 }
 
 .resume-section {
+    flex-grow: 1;
     padding: 2em;
     text-align: left;
-}
-
-.content-container {
-    display: flex;
-}
-
-.photo-section img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-right: 20px;
-}
-
-.text-block {
-    flex-grow: 1;
+    border-bottom: 1px solid #ddd; /* Light Gray border between sections */
 }
 
 h2 {
     color: #001F3F;
 }
 
+.headshot-container {
+    flex-grow: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headshot-container img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.business-card-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 2em;
+    text-align: center;
+    background-color: #001F3F; /* Soft Royal Blue */
+    color: #FFD43B; /* Peachy Orange */
+}
+
+.contact-section h2 {
+    color: #FFD43B; /* Peachy Orange */
+}
