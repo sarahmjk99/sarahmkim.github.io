@@ -8,30 +8,45 @@ header {
     background-color: #001F3F;
     color: #fff;
     padding: 1em;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1000;
 }
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-nav button {
-    background-color: #FFD43B; /* PANTONE 13-1023 */
-    color: #001F3F; /* Royal Blue */
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-    border-radius: 5px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav button:hover {
-    background-color: #001F3F;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
     color: #fff;
 }
 
-/* Add styling for other sections as needed */
+.resume-section {
+    padding: 2em;
+    text-align: center;
+}
+
+.resume-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #001F3F;
+}
+
